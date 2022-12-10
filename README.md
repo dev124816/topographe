@@ -15,6 +15,7 @@ Developed by Salim Mghari
 ## Launch:
 
 > - `cd src/`
+> - `pip install -r requirements.txt`
 > - `python manage.py runserver`
 
 > - `cd src/ui/`

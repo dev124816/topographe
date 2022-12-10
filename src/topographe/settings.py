@@ -4,9 +4,9 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.environ.get('TOPOGRAPHE_SECRET_KEY')
+SECRET_KEY = '*^x22=bem!t8@(3hj)mbq4&bc&8ms!#-2yq9*g5n*jk1hz)ch3'
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -65,7 +65,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'topographe',
         'USER': 'postgres',
-        'PASSWORD': os.environ.get('DB_PASSWORD'),
+        'PASSWORD': 'postgres',
         'HOST': 'localhost',
         'PORT': '5432',
     }
@@ -134,7 +134,7 @@ AUTHENTICATION_BACKENDS = [
 
 ]
 
-# CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = True
 
 SITE_ID = 1
 
