@@ -4,9 +4,9 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = '*^x22=bem!t8@(3hj)mbq4&bc&8ms!#-2yq9*g5n*jk1hz)ch3'
+SECRET_KEY = os.environ.get('TOPOGRAPHE_SECRET_KEY')
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
