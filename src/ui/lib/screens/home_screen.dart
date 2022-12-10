@@ -713,7 +713,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       width: 200.0,
                       height: 200.0
                     ),
-                    constraints.maxWidth > 420.0 ? const Text('Topographe',
+                    constraints.maxWidth > 420.0 ? const Text('Golden Geo',
                       style: TextStyle(
                         color: Colors_.primaryLightFont,
                         fontSize: 20.0,
@@ -887,7 +887,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   shadow: const [
                     Shadows.light
                   ],
-                  child: Text('Developed by Salim Mghari',
+                  child: Text('Créer au Maroc par le programmateur Salim pour la sté Golden Geo',
                     style: TextStyle(
                       color: Colors_.primaryLightFont,
                       fontWeight: FontWeight.w500,
